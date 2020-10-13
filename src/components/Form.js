@@ -22,8 +22,8 @@ this.setState({
     render() {
         return (
             <form onSubmit={this.handleSubmit}> 
-            <label to="name">write your todo</label>
-            <input type="text"  onChange={this.handleChange} value={this.state.todo} />
+            <label to="field">write your todo</label>
+            <input type="text"  onChange={this.handleChange} value={this.state.todo}  id="field"/>
             <button className='btn blue' onSubmit={this.handleSubmit} >Add</button>
 
             </form>
